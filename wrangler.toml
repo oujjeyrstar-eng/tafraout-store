@@ -10,7 +10,7 @@ directory = "./public"
 [[d1_databases]]
 binding = "DB"
 database_name = "tafraout-store-db"
-database_id = "حط_هنا_الـ_ID_ديال_الـ_Database_ديالك" 
+database_id = "b9740958-b68e-4bd9-801a-fdabedf761c2" 
 
 # هنا المتغيرات السرية اللي تشفرو
 [vars]
