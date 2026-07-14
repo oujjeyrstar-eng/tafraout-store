@@ -13,4 +13,5 @@ database_id = "b9740958-b68e-4bd9-801a-fdabedf761c2"
 [vars]
 ADMIN_PASSWORD_HASH = "PBKDF2$PBKDF2WithHmacSHA256$100000$NARSQijWGmiw7P6HVo2B2Q==$PaKyO1trA6A78j10A5rztiAkCZA6YYpFqaPq5lw9CYQ="
 JWT_SECRET = "4fca92b8d1a12c3b5e8f9a2d6c8b0e1f3a5c7d9e0b2a4c6e8f0a2b4c6d8e0f12"
-
+workers_dev = true
+preview_urls = false
