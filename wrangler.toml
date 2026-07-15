@@ -1,0 +1,18 @@
+# هاد الملف اختياري — كيخدم غير إلا بغيتي تجرب الموقع فالكمبيوتر ديالك قبل ما تنشرو (local dev)
+# بواسطة: npx wrangler pages dev . --d1=DB=<database_id>
+# النشر الحقيقي (production) كيتدار من Dashboard ديال Cloudflare (GitHub integration)، ماشي من هنا.
+
+name = "tafraout-store"
+pages_build_output_dir = "."
+
+[[d1_databases]]
+binding = "DB"
+database_name = "tafraout-store-db"
+database_id = "REPLACE_WITH_YOUR_DATABASE_ID"
+
+[[r2_buckets]]
+binding = "IMAGES"
+bucket_name = "tafraout-store-images"
+
+[vars]
+R2_PUBLIC_URL = "https://REPLACE_WITH_YOUR_R2_PUBLIC_URL"
