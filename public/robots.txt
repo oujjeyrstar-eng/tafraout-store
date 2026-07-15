@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /api/
-Disallow: /data/
-
-Sitemap: https://www.tajhizat-tafraout.ma/sitemap.xml
