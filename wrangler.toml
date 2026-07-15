@@ -8,7 +8,7 @@ pages_build_output_dir = "."
 [[d1_databases]]
 binding = "DB"
 database_name = "tafraout-store-db"
-database_id = "REPLACE_WITH_YOUR_DATABASE_ID"
+database_id = "7dec706c-ceee-416f-abb2-059487366e03"
 
 [[r2_buckets]]
 binding = "IMAGES"
