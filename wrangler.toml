@@ -10,9 +10,4 @@ binding = "DB"
 database_name = "tafraout-store-db"
 database_id = "0e7e4350-b95e-4e76-b740-9945d8924511"
 
-[[r2_buckets]]
-binding = "IMAGES"
-bucket_name = "tafraout-store-images"
 
-[vars]
-R2_PUBLIC_URL = "https://REPLACE_WITH_YOUR_R2_PUBLIC_URL"
